@@ -1,1 +1,1302 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" />
+    <!-- Carousel CDN -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+    <!-- Font Awesome -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Samir Dixit</title>
+  </head>
+  <body>
+    <header id="navbar-top" class="navbar-light w-100">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg px-0">
+          <div class="container-fluid px-0">
+            <a class="navbar-brand" href="#"
+              ><img src="img/samirlogo.svg" alt="Logo" loading="lazy"
+            /></a>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item mr-lg-4 active position-relative">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item mr-lg-4 position-relative">
+                  <a class="nav-link" href="#toolbox-sec">Toolbox</a>
+                </li>
+                <li class="nav-item mr-lg-4 position-relative">
+                  <a class="nav-link" href="#service-sec">Services</a>
+                </li>
+                <li class="nav-item mr-lg-4 position-relative">
+                  <a class="nav-link" href="#work-sec">Work</a>
+                </li>
+                <li class="nav-item mr-lg-4 position-relative">
+                  <a
+                    class="nav-link"
+                    href="https://dixitsamir.substack.com"
+                    target="_blank"
+                    >Blog</a
+                  >
+                </li>
+                <li class="nav-item position-relative mr-lg-4">
+                  <a class="nav-link" href="#contact-us">Contact Us</a>
+                </li>
+                <li class="nav-item mt-1 d-lg-block d-none">
+                  <label id="switch-mode" class="switch-mode" for="switch">
+                    <img
+                      src="img/lightmode.svg"
+                      class="ligthmode-on"
+                      width="20"
+                      height="30"
+                      alt="Lightmode"
+                      loading="lazy"
+                      style="display: none" />
+                    <img
+                      src="img/darkmode.svg"
+                      class="darkmode-on"
+                      width="20"
+                      height="30"
+                      alt="Darkmode"
+                      loading="lazy" />
+                  </label>
+                </li>
+              </ul>
+              <div class="d-lg-none">
+                <ul class="social-links mb-0">
+                  <li class="mr-4">
+                    <a href="javascript:void(0);"
+                      ><img src="img/linkdin.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="mr-4">
+                    <a href="javascript:void(0);"
+                      ><img src="img/facebook.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="mr-4">
+                    <a href="javascript:void(0);"
+                      ><img src="img/instagram.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="mr-4">
+                    <a href="javascript:void(0);"
+                      ><img src="img/mail.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="mr-4 mt-1">
+                    <label class="switch-mode" for="switch">
+                      <img
+                        src="img/lightmode.svg"
+                        class="ligthmode-on navbar-toggler p-0"
+                        data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        width="20"
+                        height="20"
+                        alt="Lightmode"
+                        loading="lazy"
+                        style="display: none" />
+                      <img
+                        src="img/darkmode.svg"
+                        class="darkmode-on navbar-toggler p-0"
+                        data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        width="20"
+                        height="20"
+                        alt="Darkmode"
+                        loading="lazy" />
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <input type="checkbox" id="switch" />
+    <div class="main mt-5">
+      <section class="intro-sec position-relative mb-3 pt-5">
+        <div class="container">
+          <div class="row flex-md-row flex-column-reverse">
+            <div class="col-lg-6 col-md-7 intro-content py-5 pr-3">
+              <h1 class="color-primary font-weight-bold">Namaste!</h1>
+              <p>
+                I am Samir, MD and tech lead at
+                <a href="https://think360studio.com" target="_blank"
+                  >Think360Studio</a
+                >.<br /><br />
+                I help businesses from different domains accelerate their growth
+                with the help of high quality software.
+              </p>
+              <div class="btn-group mt-4">
+                <a href="javascript:void(0);" class="btn btn-primary"
+                  >Get In Touch !</a
+                >
+                <a
+                  href="javascript:void(0);"
+                  class="btn btn-outline-danger btn-outline"
+                  >Download Resume</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-5">
+              <div class="br-imgbox text-center">
+                <img src="img/samir.png" alt="" loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- wavify-animation -->
+      <div class="wavify-animation">
+        <svg
+          width="100%"
+          height="100%"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          class="wave">
+          <defs></defs>
+          <path id="feel-the-wave" d="" />
+        </svg>
+        <svg
+          width="100%"
+          height="100%"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          class="wave">
+          <defs></defs>
+          <path id="feel-the-wave-two" d="" />
+        </svg>
+      </div>
+      <!-- //wavify-animation -->
+
+      <section class="toolbox-sec" id="toolbox-sec">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 mx-auto mb-4 sec-heading text-center">
+              <h2 class="text-white" style="font-size: 48px">My Toolbox</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 mb-4 sec-heading text-center">
+              <div
+                class="tech-listing d-flex flex-column flex-md-row align-items-center justify-content-center">
+                <h4 class="text-white">Back-end</h4>
+                <ul
+                  class="technology-list p-0 pl-md-5 m-0 d-flex flex-wrap border-0">
+                  <li class="border-0">
+                    <a target="" href="javascript:void(0);">
+                      <img
+                        width="75"
+                        height="75"
+                        loading="lazy"
+                        alt="Wordpress"
+                        src="img/php.svg" />
+                      PHP
+                    </a>
+                  </li>
+                  <li class="border-0">
+                    <a target="" href="javascript:void(0);">
+                      <img
+                        width="75"
+                        height="75"
+                        loading="lazy"
+                        alt="Wordpress"
+                        src="img/mysql.svg" />
+                      MySQL
+                    </a>
+                  </li>
+                  <li class="border-0">
+                    <a target="" href="javascript:void(0);">
+                      <img
+                        width="75"
+                        height="75"
+                        loading="lazy"
+                        alt="Wordpress"
+                        src="img/amazon-web-services-logo.svg" />
+                      AWS
+                    </a>
+                  </li>
+                  <li class="border-0">
+                    <a target="" href="javascript:void(0);">
+                      <img
+                        width="75"
+                        height="75"
+                        loading="lazy"
+                        alt="Wordpress"
+                        src="img/node-js.svg" />
+                      NodeJS
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 mb-4 sec-heading text-center">
+              <div
+                class="tech-listing d-flex flex-column flex-md-row align-items-center justify-content-center">
+                <h4 class="text-white">Front-end</h4>
+                <ul
+                  class="technology-list p-0 pl-md-5 m-0 d-flex flex-wrap border-0">
+                  <li class="border-0">
+                    <a target="" href="javascript:void(0);">
+                      <img
+                        width="75"
+                        height="75"
+                        loading="lazy"
+                        alt="HTML5"
+                        src="img/html.svg" />
+                      HTML5
+                    </a>
+                  </li>
+                  <li class="border-0">
+                    <a target="" href="javascript:void(0);">
+                      <img
+                        width="75"
+                        height="75"
+                        loading="lazy"
+                        alt="CSS3"
+                        src="img/css.svg" />
+                      CSS3
+                    </a>
+                  </li>
+                  <li class="border-0">
+                    <a target="" href="javascript:void(0);">
+                      <img
+                        width="75"
+                        height="75"
+                        loading="lazy"
+                        alt="React"
+                        src="img/react.svg" />
+                      ReactJS
+                    </a>
+                  </li>
+                  <li class="border-0">
+                    <a target="" href="javascript:void(0);">
+                      <img
+                        width="75"
+                        height="75"
+                        loading="lazy"
+                        alt="Jquery"
+                        src="img/jquery.svg" />
+                      jQuery
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 mb-4 sec-heading text-center">
+              <div
+                class="tech-listing d-flex flex-column flex-md-row align-items-center justify-content-center">
+                <h4 class="text-white">General</h4>
+                <ul
+                  class="technology-list p-0 pl-md-5 m-0 d-flex flex-wrap border-0">
+                  <li class="border-0">
+                    <a target="" href="javascript:void(0);">
+                      <img
+                        width="75"
+                        height="75"
+                        loading="lazy"
+                        alt="VS Code"
+                        src="img/visualStudio.svg" />
+                      VS Code
+                    </a>
+                  </li>
+                  <li class="border-0">
+                    <a target="" href="javascript:void(0);">
+                      <img
+                        width="75"
+                        height="75"
+                        loading="lazy"
+                        alt="VS Code"
+                        src="img/atom-logo.svg" />
+                      Atom
+                    </a>
+                  </li>
+                  <li class="border-0">
+                    <a target="" href="javascript:void(0);">
+                      <img
+                        width="75"
+                        height="75"
+                        loading="lazy"
+                        alt="BitBucket"
+                        src="img/bitbucket.svg" />
+                      BitBucket
+                    </a>
+                  </li>
+                  <li class="border-0">
+                    <a target="" href="javascript:void(0);">
+                      <img
+                        width="75"
+                        height="75"
+                        loading="lazy"
+                        alt="JIRA"
+                        src="img/jira.svg" />
+                      JIRA
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="wwd-sec" id="service-sec">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 mx-auto sec-heading mb-4 text-center">
+              <h2>What Do I Do?</h2>
+              <p>I play different roles at my work place.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="wwd-col">
+                <img
+                  class="mb-3"
+                  width="50"
+                  height="50"
+                  src="img/uiux.svg"
+                  alt="UIUX"
+                  loading="lazy" />
+                <h3>Technical Lead</h3>
+                <p>
+                  The primary aspect of this role is to work with development
+                  teams on areas like
+                </p>
+                <ul class="p-0">
+                  <li>System & application architecture</li>
+                  <li>Database design</li>
+                  <li>Technical guidance</li>
+                  <li>Code review</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="wwd-col">
+                <img
+                  class="mb-3"
+                  width="50"
+                  height="50"
+                  src="img/salesmgt.svg"
+                  alt="Sales Management"
+                  loading="lazy" />
+                <h3>Project Management</h3>
+                <p>Take care of various activities like</p>
+                <ul class="p-0">
+                  <li>Requirements assessment</li>
+                  <li>Project planning, scheduling, and tracking progress</li>
+                  <li>
+                    Facilitate communication between the team and stakeholders
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="wwd-col">
+                <img
+                  class="mb-3"
+                  width="50"
+                  height="50"
+                  src="img/programming.svg"
+                  alt="Programing"
+                  loading="lazy" />
+                <h3>Programming</h3>
+                <p>
+                  I like this role the most. I work with different tech stack
+                  like
+                </p>
+                <ul class="p-0">
+                  <li>React.js</li>
+                  <li>NodeJS</li>
+                  <li>Mysql, PostgreSQL, DynamoDB</li>
+                  <li>Different AWS services</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="work-sec bg-gray" id="work-sec">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 mx-auto sec-heading mb-4 pt-5 text-center">
+              <h2>Work</h2>
+              <p>A Selection Of Stuff I’ve Built</p>
+            </div>
+          </div>
+          <div class="row py-5 align-items-center">
+            <div class="col-lg-7 mb-lg-0 mb-5">
+              <img
+                src="img/work-img1.png"
+                alt="Personal Date Night"
+                loading="lazy" />
+            </div>
+            <div class="col-lg-5 work-content mb-2">
+              <h3>Personal Date Night</h3>
+              <p>
+                For when you need a break from your partner but already got a
+                babysitter. Now couples can go to different events in similar
+                locations and at the same time. A group programming project with
+                Can Rozanes, Irene Truong and Jamie Yeung.
+              </p>
+              <div class="d-flex mb-4 pb-2">
+                <img
+                  width="30"
+                  height="30"
+                  class="mr-2"
+                  src="img/html-icon.svg"
+                  alt=""
+                  loading="lazy" />
+                <img
+                  width="30"
+                  height="30"
+                  class="mr-2"
+                  src="img/css-icon.svg"
+                  alt=""
+                  loading="lazy" />
+                <img
+                  width="30"
+                  height="30"
+                  class="mr-2 github-light"
+                  src="img/github-icon.svg"
+                  alt=""
+                  loading="lazy" />
+                <img
+                  width="30"
+                  height="30"
+                  class="mr-2 github-dark"
+                  src="img/github.svg"
+                  alt=""
+                  loading="lazy" />
+                <img
+                  width="30"
+                  height="30"
+                  class="mr-2"
+                  src="img/wordpress-icon.svg"
+                  alt=""
+                  loading="lazy" />
+              </div>
+              <div class="btn-group">
+                <a href="javascript:void(0);" class="btn btn-primary"
+                  >View It Here</a
+                >
+                <a
+                  href="javascript:void(0);"
+                  class="btn btn-outline-danger btn-outline"
+                  >View Github Repo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="work-sec">
+        <div class="container">
+          <div
+            class="row py-5 align-items-center flex-lg-row flex-column-reverse">
+            <div class="col-lg-5 work-content mb-2">
+              <h3>The Absolutely Amazing Newspaper Apparatus</h3>
+              <p>
+                Generate your very own steam-punk themed custom newspaper. Just
+                input your details and the apparatus will do the rest!
+              </p>
+              <div class="d-flex mb-4 pb-2">
+                <img
+                  width="30"
+                  height="30"
+                  class="mr-2"
+                  src="img/html-icon.svg"
+                  alt=""
+                  loading="lazy" />
+                <img
+                  width="30"
+                  height="30"
+                  class="mr-2"
+                  src="img/css-icon.svg"
+                  alt=""
+                  loading="lazy" />
+                <img
+                  width="30"
+                  height="30"
+                  class="mr-2 github-light"
+                  src="img/github-icon.svg"
+                  alt=""
+                  loading="lazy" />
+                <img
+                  width="30"
+                  height="30"
+                  class="mr-2 github-dark"
+                  src="img/github.svg"
+                  alt=""
+                  loading="lazy" />
+                <img
+                  width="30"
+                  height="30"
+                  class="mr-2"
+                  src="img/wordpress-icon.svg"
+                  alt=""
+                  loading="lazy" />
+              </div>
+              <div class="btn-group">
+                <a href="javascript:void(0);" class="btn btn-primary"
+                  >View It Here</a
+                >
+                <a
+                  href="javascript:void(0);"
+                  class="btn btn-outline-danger btn-outline"
+                  >View Github Repo</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-7 mb-lg-0 mb-5">
+              <img
+                src="img/work-img2.png"
+                alt="Personal Date Night"
+                loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="work-sec bg-gray">
+        <div class="container">
+          <div class="row py-5 align-items-center">
+            <div class="col-lg-7 mb-lg-0 mb-5">
+              <img
+                src="img/work-img3.png"
+                alt="Personal Date Night"
+                loading="lazy" />
+            </div>
+            <div class="col-lg-5 work-content mb-2">
+              <h3>Word Wiz</h3>
+              <p>
+                For when you need a break from your partner but already got a
+                babysitter. Now couples can go to different events in similar
+                locations and at the same time. A group programming project with
+                Can Rozanes, Irene Truong and Jamie Yeung.
+              </p>
+              <div class="d-flex mb-4 pb-2">
+                <img
+                  width="30"
+                  height="30"
+                  class="mr-2"
+                  src="img/html-icon.svg"
+                  alt=""
+                  loading="lazy" />
+                <img
+                  width="30"
+                  height="30"
+                  class="mr-2"
+                  src="img/css-icon.svg"
+                  alt=""
+                  loading="lazy" />
+                <img
+                  width="30"
+                  height="30"
+                  class="mr-2 github-light"
+                  src="img/github-icon.svg"
+                  alt=""
+                  loading="lazy" />
+                <img
+                  width="30"
+                  height="30"
+                  class="mr-2 github-dark"
+                  src="img/github.svg"
+                  alt=""
+                  loading="lazy" />
+                <img
+                  width="30"
+                  height="30"
+                  class="mr-2"
+                  src="img/wordpress-icon.svg"
+                  alt=""
+                  loading="lazy" />
+              </div>
+              <div class="btn-group">
+                <a href="javascript:void(0);" class="btn btn-primary"
+                  >View It Here</a
+                >
+                <a
+                  href="javascript:void(0);"
+                  class="btn btn-outline-danger btn-outline"
+                  >View Github Repo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonial-sec">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 mb-4 sec-heading text-center">
+              <h2>Testimonials</h2>
+              <p>What Random People Think About Us</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 testimonial-slider">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="card border-0 text-center">
+                    <img
+                      src="img/testimonial-img1.png"
+                      width="110"
+                      height="110"
+                      alt="Testimonial" />
+                    <div class="card-body border border-color">
+                      <h5 class="mb-3">
+                        Randy Gribben, Chief Operating Officer,
+                        <span class="d-block color-secondary"
+                          >Ajile Light Industries</span
+                        >
+                      </h5>
+                      <p class="mb-4">
+                        We engaged Annie as a consultant to review and critique
+                        the design of our website and marketing materials. She
+                        has been an excellent source of constructive feedback,
+                        and has helped us immensely to communicate our vision.
+                      </p>
+                      <img
+                        src="img/quote-icom.svg"
+                        width="40"
+                        height="40"
+                        alt="Quote Icon"
+                        loading="lazy" />
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border-0 text-center">
+                    <img
+                      src="img/testimonial-img2.png"
+                      width="110"
+                      height="110"
+                      alt="Testimonial" />
+                    <div class="card-body border border-color">
+                      <h5 class="mb-3">
+                        Brook Thordycraft, Family & Workplace Mediator,
+                        <span class="d-block color-secondary"
+                          >Ajile Light Industries</span
+                        >
+                      </h5>
+                      <p class="mb-4">
+                        We engaged Annie as a consultant to review and critique
+                        the design of our website and marketing materials. She
+                        has been an excellent source of constructive feedback,
+                        and has helped us immensely to communicate materials.
+                      </p>
+                      <img
+                        src="img/quote-icom.svg"
+                        width="40"
+                        height="40"
+                        alt="Quote Icon"
+                        loading="lazy" />
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border-0 text-center">
+                    <img
+                      src="img/testimonial-img3.png"
+                      width="110"
+                      height="110"
+                      alt="Testimonial" />
+                    <div class="card-body border border-color">
+                      <h5 class="mb-3">
+                        Dylan Mcguinty Jr., Lawyer,
+                        <span class="d-block color-secondary">
+                          Mcguinty Law Offices</span
+                        >
+                      </h5>
+                      <p class="mb-4">
+                        We engaged Annie as a consultant to review and critique
+                        the design of our website and marketing materials. She
+                        has been, and has helped us immensely to communicate our
+                        vision with visually compelling materials.
+                      </p>
+                      <img
+                        src="img/quote-icom.svg"
+                        width="40"
+                        height="40"
+                        alt="Quote Icon"
+                        loading="lazy" />
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border-0 text-center">
+                    <img
+                      src="img/testimonial-img1.png"
+                      width="110"
+                      height="110"
+                      alt="Testimonial" />
+                    <div class="card-body border border-color">
+                      <h5 class="mb-3">
+                        Randy Gribben, Chief Operating Officer,
+                        <span class="d-block color-secondary"
+                          >Ajile Light Industries</span
+                        >
+                      </h5>
+                      <p class="mb-4">
+                        We engaged Annie as a consultant to review and critique
+                        the design of our website and marketing materials. She
+                        has been an excellent source of constructive feedback,
+                        and has helped us immensely to communicate our vision.
+                      </p>
+                      <img
+                        src="img/quote-icom.svg"
+                        width="40"
+                        height="40"
+                        alt="Quote Icon"
+                        loading="lazy" />
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border-0 text-center">
+                    <img
+                      src="img/testimonial-img2.png"
+                      width="110"
+                      height="110"
+                      alt="Testimonial" />
+                    <div class="card-body border border-color">
+                      <h5 class="mb-3">
+                        Brook Thordycraft, Family & Workplace Mediator,
+                        <span class="d-block color-secondary"
+                          >Ajile Light Industries</span
+                        >
+                      </h5>
+                      <p class="mb-4">
+                        We engaged Annie as a consultant to review and critique
+                        the design of our website and marketing materials. She
+                        has been an excellent source of constructive feedback,
+                        and has helped us immensely to communicate materials.
+                      </p>
+                      <img
+                        src="img/quote-icom.svg"
+                        width="40"
+                        height="40"
+                        alt="Quote Icon"
+                        loading="lazy" />
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="card border-0 text-center">
+                    <img
+                      src="img/testimonial-img3.png"
+                      width="110"
+                      height="110"
+                      alt="Testimonial" />
+                    <div class="card-body border border-color">
+                      <h5 class="mb-3">
+                        Dylan Mcguinty Jr., Lawyer,
+                        <span class="d-block color-secondary">
+                          Mcguinty Law Offices</span
+                        >
+                      </h5>
+                      <p class="mb-4">
+                        We engaged Annie as a consultant to review and critique
+                        the design of our website and marketing materials. She
+                        has been, and has helped us immensely to communicate our
+                        vision with visually compelling materials.
+                      </p>
+                      <img
+                        src="img/quote-icom.svg"
+                        width="40"
+                        height="40"
+                        alt="Quote Icon"
+                        loading="lazy" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog-sec" id="blog-sec">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 mx-auto sec-heading mb-4 text-center">
+              <h2>Blog</h2>
+              <p>
+                Learn User Experience (UX), User Interface Design (UI),
+                Conversion, Human-Computer Interaction (HCI), Information
+                Architecture (IA), Customer Experience (CX), Branding, Design,
+                And Usability Testing.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 blog-box">
+              <div class="card border-0">
+                <a href="javascript:void(0);"
+                  ><img src="img/blog-img1.png" alt="Blog" loading="lazy"
+                /></a>
+                <div class="card-body px-0">
+                  <a href="javascript:void(0);">
+                    <h5>PHP Development</h5>
+                  </a>
+                  <a href="javascript:void(0);" class="color-primary"
+                    ><h4>Have A Meaningful Impact</h4></a
+                  >
+                  <a href="javascript:void(0);" class="color-primary"
+                    ><p>
+                      Opportunities To Front Who Have Proven To Be Good At
+                      Executing On Them.
+                    </p></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 blog-box">
+              <div class="card border-0">
+                <a href="javascript:void(0);"
+                  ><img src="img/blog-img2.png" alt="Blog" loading="lazy"
+                /></a>
+                <div class="card-body px-0">
+                  <a href="javascript:void(0);">
+                    <h5>Amazon Services</h5>
+                  </a>
+                  <a href="javascript:void(0);" class="color-primary"
+                    ><h4>Have A Meaningful Impact</h4></a
+                  >
+                  <a href="javascript:void(0);" class="color-primary"
+                    ><p>
+                      Whether You’re A Startup Or A Global Enterprise, Learn How
+                      To Integrate With Front.
+                    </p></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 blog-box">
+              <div class="card border-0">
+                <a href="javascript:void(0);"
+                  ><img src="img/blog-img3.png" alt="Blog" loading="lazy"
+                /></a>
+                <div class="card-body px-0">
+                  <a href="javascript:void(0);">
+                    <h5>React JS</h5>
+                  </a>
+                  <a href="javascript:void(0);" class="color-primary"
+                    ><h4>Have A Meaningful Impact</h4></a
+                  >
+                  <a href="javascript:void(0);" class="color-primary"
+                    ><p>
+                      Opportunities To Front Who Have Proven To Be Good At
+                      Executing On Them.
+                    </p></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mt-4 text-center">
+              <a
+                href="javascript:void(0);"
+                class="btn btn-outline-danger btn-outline"
+                >Want to read more?
+                <span class="color-secondary">Go here ></span></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="accordian-sec py-5" id="blog-sec">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 mx-auto sec-heading mb-4 text-center">
+              <h2>Frequently Asked Questions</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-10 col-12 mx-auto">
+              <div class="accordion" id="accordionExample">
+                <div class="card border-0">
+                  <div class="card-header" id="headingfour">
+                    <h2 class="mb-0">
+                      <button
+                        class="btn btn-block text-left collapsed"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapsefour"
+                        aria-expanded="false"
+                        aria-controls="collapsefour">
+                        What are your core technical skills?
+                      </button>
+                    </h2>
+                  </div>
+                  <div
+                    id="collapsefour"
+                    class="collapse"
+                    aria-labelledby="headingfour"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>
+                        PHP, MySQL, NodeJS, ReactJS, AWS Services (S3, Lambda,
+                        API Gateway, DynamoDB, EC2)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card border-0">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button
+                        class="btn btn-block text-left collapsed"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseOne"
+                        aria-expanded="false"
+                        aria-controls="collapseOne">
+                        Do you work alone or in a team?
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div
+                    id="collapseOne"
+                    class="collapse"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>
+                        I work in a team of highly talented people (who are also
+                        my friends) with a wide range of skills related to
+                        web/mobile app design and development.
+                      </p>
+                      <p>
+                        It helps you and me in covering skills that are not part
+                        of my core skill set such as UI/UX design.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card border-0">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button
+                        class="btn btn-block text-left collapsed"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo">
+                        Do you charge per hour or per project?
+                      </button>
+                    </h2>
+                  </div>
+                  <div
+                    id="collapseTwo"
+                    class="collapse"
+                    aria-labelledby="headingTwo"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>I am open to both options!</p>
+                      <p>
+                        Usually per project works best as it allows you and me
+                        to determine the price in the beginning and then just
+                        focus on the product itself instead of counting the
+                        hours.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card border-0">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button
+                        class="btn btn-block text-left collapsed"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree">
+                        How often will we be in contact?
+                      </button>
+                    </h2>
+                  </div>
+                  <div
+                    id="collapseThree"
+                    class="collapse"
+                    aria-labelledby="headingThree"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>
+                        Since communication is critical in any healthy
+                        relationship I prefer communicating at least once a day.
+                      </p>
+                      <p>
+                        However I'm open to higher or lower frequency depending
+                        upon your comfort level.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mb-0 bg-gray" id="contact-us">
+        <div class="container">
+          <div class="row align-items-center justify-content-center py-5">
+            <div class="col-lg-6">
+              <div class="GetInTouch text-center">
+                <h2>Get In Touch</h2>
+                <p>
+                  Dropping a line to say g’day, ask for my resume or see if we
+                  can build something amazing together? I’d love to hear from
+                  you!
+                </p>
+                <div class="followMe justify-content-center d-flex">
+                  <div class="mb-4 pb-2 mr-5">
+                    <p>
+                      Email me at
+                      <script>
+                        a = "samirdixit0";
+                        b = "gmail.com";
+                        document.write(
+                          '<a class="d-block color-secondary" hre' +
+                            'f="mai' +
+                            "lto:" +
+                            a +
+                            "@" +
+                            b +
+                            '">'
+                        );
+                        document.write(a + "@" + b + "</a>");
+                      </script>
+                    </p>
+                  </div>
+                  <div class="mb-4 pb-2">
+                    <p class="mb-2">Follow me:</p>
+                    <a
+                      href="https://www.linkedin.com/in/samir-dixit-7b936012"
+                      target="_blank"
+                      class="mb-2 d-inline-block follow-icons">
+                      <img
+                        width="30"
+                        height="30"
+                        class="mr-2"
+                        src="img/follow-linkdin.svg"
+                        alt=""
+                        loading="lazy" />
+                    </a>
+                    <a
+                      href="https://github.com/samirdixit"
+                      target="_blank"
+                      class="mb-2 d-inline-block follow-icons">
+                      <img
+                        width="30"
+                        height="30"
+                        class="mr-2 github-light"
+                        src="img/follow-github.svg"
+                        alt=""
+                        loading="lazy" />
+                      <img
+                        width="30"
+                        height="30"
+                        class="mr-2 github-dark"
+                        src="img/github.svg"
+                        alt=""
+                        loading="lazy" />
+                    </a>
+                    <a
+                      href="https://www.instagram.com/dixit.samir"
+                      target="_blank"
+                      class="mb-2 d-inline-block follow-icons">
+                      <img
+                        width="30"
+                        height="30"
+                        class="mr-2"
+                        src="img/follow-instagram.svg"
+                        alt=""
+                        loading="lazy" />
+                    </a>
+                    <a
+                      href="https://twitter.com/samirdixit0"
+                      target="_blank"
+                      class="mb-2 d-inline-block follow-icons">
+                      <img
+                        width="30"
+                        height="30"
+                        class="mr-2"
+                        src="img/follow-twitter.svg"
+                        alt=""
+                        loading="lazy" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="copywrites text-center bg-gray">
+        <p class="mb-0">© 2019 - 2024 | Designed & coded by Samir Dixit</p>
+      </footer>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Carousel CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="https://rawgit.com/peacepostman/wavify/master/wavify.js"></script>
+    <script src="https://rawgit.com/peacepostman/wavify/master/jquery.wavify.js"></script>
+    <script>
+      // var prevScrollpos = window.pageYOffset;
+      //   window.onscroll = function() {
+      //     var currentScrollPos = window.pageYOffset;
+      //     if (prevScrollpos > currentScrollPos) {
+      //       document.getElementById("navbar-top").style.top = "0";
+      //     } else {
+      //       document.getElementById("navbar-top").style.top = "-64px";
+      //     }
+      //     prevScrollpos = currentScrollPos;
+      //   }
+      var new_scroll_position = 0;
+      var last_scroll_position;
+      var header = document.getElementById("navbar-top");
+
+      window.addEventListener("scroll", function (e) {
+        last_scroll_position = window.scrollY;
+
+        // Scrolling down
+        if (
+          new_scroll_position < last_scroll_position &&
+          last_scroll_position > 80
+        ) {
+          // header.removeClass('slideDown').addClass('slideUp');
+          header.classList.remove("slideDown");
+          header.classList.add("slideUp");
+
+          // Scrolling up
+        } else if (new_scroll_position > last_scroll_position) {
+          // header.removeClass('slideUp').addClass('slideDown');
+          header.classList.remove("slideUp");
+          header.classList.add("slideDown");
+        }
+
+        new_scroll_position = last_scroll_position;
+      });
+      /*Slider*/
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 15,
+        dots: true,
+        nav: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+      /*Tooltip*/
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+      /*Wave Js*/
+      var wave1 = $("#feel-the-wave").wavify({
+        height: 80,
+        bones: 4,
+        amplitude: 60,
+        color: "#B289EF",
+        speed: 0.15,
+      });
+      var wave2 = $("#feel-the-wave-two").wavify({
+        height: 60,
+        bones: 3,
+        amplitude: 60,
+        color: "rgba(150, 97, 255, .8)",
+        speed: 0.25,
+      });
+      /*Darkmode*/
+      $(".switch-mode, #switch-mode").click(function () {
+        if ($(this).is(":checked")) {
+          $(".darkmode-on").toggle();
+          $(".ligthmode-on").toggle();
+        } else {
+          $(".ligthmode-on").toggle();
+          $(".darkmode-on").toggle();
+        }
+      });
+      $(".navbar-toggler").click(function () {
+        $("body").toggleClass("opennav-menu");
+      });
+      $(".navbar-collapse .nav-link").click(function () {
+        $(".navbar-collapse").collapse("hide");
+        $("body").removeClass("opennav-menu");
+      });
+      $(function () {
+        $(".navbar-nav li").click(function () {
+          $(".navbar-nav li").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
